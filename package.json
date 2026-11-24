@@ -1,0 +1,23 @@
+{
+  "name": "nails-spa-api",
+  "version": "1.0.0",
+  "description": "API REST por capas para la gestión de turnos de Nails Spa (Taller final - Arquitectura de Software)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test test/"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
