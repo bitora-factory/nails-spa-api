@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": 1,
+    "cliente": "Laura Gómez",
+    "telefono": "3001234567",
+    "servicio": "unas-gel",
+    "nombreServicio": "Uñas en gel",
+    "manicurista": "Paola",
+    "fecha": "2026-12-05",
+    "horaInicio": "10:00",
+    "horaFin": "11:30",
+    "duracionMinutos": 90,
+    "prioritario": true,
+    "precioBase": 60000,
+    "porcentajeRecargo": 22,
+    "recargo": 13200,
+    "totalPagar": 73200,
+    "estado": "activa",
+    "creadoEn": "2026-11-24T14:38:12.428Z"
+  }
+]

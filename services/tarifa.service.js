@@ -1,7 +1,7 @@
 // Capa de servicios: regla de negocio parametrizada por el equipo (N).
 //
 // N = número de lista oficial del primer integrante del equipo, ordenado por apellido.
-// Ver README.md para el detalle de cómo se obtuvo.
+// Equipo ordenado por apellido: Mejía Almansa (#11), Rave Acosta (#16), Román Semprún (#17) -> N = 11.
 const N = 11;
 
 // porcentajeRecargo = N × 2 %

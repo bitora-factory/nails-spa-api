@@ -10,18 +10,13 @@ Ordenados alfabéticamente por apellido, según el listado oficial de asistencia
 | # de lista | Nombre completo |
 |-----------:|-----------------|
 | 11 | Kevin Mauricio Mejía Almansa |
-| _por completar_ | _Integrante 2_ |
-| _por completar_ | _Integrante 3_ |
-| _por completar_ | _Integrante 4_ |
-
-> ⚠️ **Antes de entregar:** completar la tabla. Si algún integrante queda antes que
-> Mejía Almansa en orden alfabético, N cambia a su número de lista; en ese caso hay que
-> actualizar la constante `N` en [`services/tarifa.service.js`](services/tarifa.service.js)
-> y los ejemplos de esta página.
+| 16 | Luna Rave Acosta |
+| 17 | Winder Alexander Román Semprún |
 
 ## Regla de negocio parametrizada (N)
 
-- **N = 11** — número de lista del primer integrante en orden alfabético.
+- **N = 11** — al ordenar por apellido (Mejía Almansa, Rave Acosta, Román Semprún), el primer
+  integrante es Kevin Mauricio Mejía Almansa, que ocupa el puesto #11 de la lista oficial.
 - **Porcentaje de recargo** = N × 2 % = 11 × 2 % = **22 %**.
 - Se aplica en la capa de servicios ([`services/tarifa.service.js`](services/tarifa.service.js)):
   - `"prioritario": true` → `totalPagar = precioBase + precioBase × (22 / 100)`
